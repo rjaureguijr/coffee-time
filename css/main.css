@@ -1,0 +1,78 @@
+@import url('//fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+html,
+body
+ {
+    height: 20em;
+    margin: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+    background: #222222;
+    color: #222222;
+}
+h1,
+footer {
+    background: linear-gradient(
+        180deg,
+        hsl(0,0%,78%)  2%,
+        hsl(0,0%,90%) 47%,
+        hsl(0,0%,78%) 53%,
+        hsl(0,0%,70%)100%
+    );
+    font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+    padding: .2em 0 .4em 1em;
+    text-shadow: .025em .025em #ffffff;
+}
+h2 {
+    background: #000000;
+    border: .1em solid lightgray;
+    border-radius: .35em;
+    color: #b3d4fc;
+    font-family: 'Press Start 2P', cursive;
+    margin: .25em;
+    padding: 1.025em;
+}
+.container {
+    background: #282c34;
+    color: #61dafb;
+}
+.button-container {
+    padding: 1.4em;
+}
+.btn {
+    background-color: #f8f9fa;
+    border-radius: .35em;
+    color: #212529;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375em .75em;
+    text-align: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.btn:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+.cup-container {
+    background: white;
+    height: 12em;
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
+}
+p {
+    margin: 0;
+    padding: 1.4em 0 1em 1.4em;
+}
+#product-output {
+    margin: 0;
+    font-size: .75em;
+}
